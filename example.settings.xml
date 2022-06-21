@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+
+  <servers>
+    <server>
+      <id>nexus</id> # same with id repository in pom.xml
+      <username>example-dev</username> # username account nexus
+      <password>password</password> # password account nexus
+    </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <id>nexus</id> # same with id repository in pom.xml
+      <name>nexus</name>
+      <url>https://nexus.tranvannhan1911.tk/repository/example-maven-public/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
