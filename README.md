@@ -120,7 +120,7 @@
         - Đi tới repository tương ứng trên nexus repository browser.
         - Bấm vào artifact muốn sử dụng
         - Chọn version, sau đó copy dependency text như trên và dán vào file pom.xml của project cần sử dụng
-    12. Kết quả
+    12. Kết quả sau khi deploy
         
         ![Untitled](note_images/Untitled%207.png)
         
